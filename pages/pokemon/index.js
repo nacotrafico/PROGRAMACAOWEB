@@ -21,7 +21,7 @@ function changePageTitle(title) {
   
     let indiceAtual = 0;
   
-    img.addEventListener('click', () => {
+    img.addEentListener('click', () => {
       indiceAtual = (indiceAtual + 1) % imagens.length;
       img.src = imagens[indiceAtual];
     });
